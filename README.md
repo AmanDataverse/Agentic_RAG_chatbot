@@ -42,14 +42,16 @@ Organizations deal with large volumes of unstructured documents. Extracting know
 
 ## 🧠 Workflow
 
+```md
 ```mermaid
-graph TD
-A[User Uploads Documents] --> B[Ingestion Agent: Chunking + Cleaning]
-B --> C[Retrieval Agent: Embed + Index using FAISS]
-C --> D[LLM Agent: Prompt + Query + Response]
-D --> E[Streamlit UI: Show Answer + Sources]
-
-##  project 
+flowchart TD
+  A[User Uploads File] --> B[Text Chunking]
+  B --> C[Embedding]
+  C --> D[Indexing]
+  D --> E[User Asks Question]
+  E --> F[Top-K Retrieval]
+  F --> G[LLM Answer + Sources]
+ 
 
 agentic_rag_chatbot/
 ├── agents/              → All agents (Ingestion, Retrieval, LLM)
