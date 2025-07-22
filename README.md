@@ -51,7 +51,10 @@ flowchart TD
   D --> E[User Asks Question]
   E --> F[Top-K Retrieval]
   F --> G[LLM Answer + Sources]
- 
+``` 
+
+
+## 📁 Project Structure
 
 agentic_rag_chatbot/
 ├── agents/              → All agents (Ingestion, Retrieval, LLM)
