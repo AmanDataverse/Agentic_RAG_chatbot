@@ -81,3 +81,10 @@ agentic_rag_chatbot/
 [![Watch the demo]](media/Demo_Agentic_RAG_CHATBOT.mp4)
 
 ```
+## 📑 Presentation
+
+```
+
+📄 [Click here to download the project PPT](./presentation/Agentic_RAG_Chatbot_Presentation.pptx)
+
+```
