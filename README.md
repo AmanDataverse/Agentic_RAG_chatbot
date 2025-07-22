@@ -81,4 +81,4 @@ agentic_rag_chatbot/
 
 ## 📑 Presentation
 
-📊 [Click here to download the presentation](presentation/SLRIS_task_ppt.pptx)
+📊 [Click here to download the presentation](presentation/Agentic_RAG_Chatbot_Presentation.pptx)
