@@ -74,8 +74,10 @@ agentic_rag_chatbot/
 
 ```
 ```
+```
 ## 🎬 Demo Video
 
+```
 [![Watch the demo]](media/Demo_Agentic_RAG_CHATBOT.mp4)
 
 ```
