@@ -54,6 +54,7 @@ flowchart TD
 
 
 ```markdown
+
 ## 📁 Project Structure
 
 ```text
@@ -73,3 +74,4 @@ agentic_rag_chatbot/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Documentation
 └── .gitignore              # Git ignore file
+```
