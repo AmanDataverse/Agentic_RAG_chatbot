@@ -40,9 +40,8 @@ Organizations deal with large volumes of unstructured documents. Extracting know
 
 ---
 
-## 🧠 Workflow
+## 📊 Workflow
 
-```md
 ```mermaid
 flowchart TD
   A[User Uploads File] --> B[Text Chunking]
@@ -51,19 +50,26 @@ flowchart TD
   D --> E[User Asks Question]
   E --> F[Top-K Retrieval]
   F --> G[LLM Answer + Sources]
-``` 
 
 
+
+```markdown
 ## 📁 Project Structure
 
+```text
 agentic_rag_chatbot/
-├── agents/              → All agents (Ingestion, Retrieval, LLM)
-├── ui/                  → Streamlit app
-├── data/                → Uploaded files
-├── db/                  → FAISS index, docs.pkl
-├── utils/               → Shared utilities (MCP, etc.)
-├── tests/               → Unit + integration tests
-├── .env                 → API keys (not tracked)
-├── .gitignore
-├── README.md
-└── requirements.txt
+│
+├── agents/                 # Ingestion, retrieval, and response logic
+│   ├── ingestion_agent.py
+│   ├── retrieval_agent.py
+│   └── llm_response_agent.py
+│
+├── data/                   # Uploaded files
+├── db/                     # FAISS index and pickled documents
+├── ui/                     # Streamlit interface
+├── utils/                  # Utility functions (e.g., MCP)
+│
+├── .env                    # API keys and credentials
+├── requirements.txt        # Python dependencies
+├── README.md               # Documentation
+└── .gitignore              # Git ignore file
