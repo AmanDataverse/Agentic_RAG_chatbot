@@ -52,9 +52,6 @@ flowchart TD
   F --> G[LLM Answer + Sources]
 ```
 
-
-```markdown
-
 ## 📁 Project Structure
 
 ```text
@@ -75,4 +72,5 @@ agentic_rag_chatbot/
 ├── 📘 README.md            → Project documentation
 └── 🚫 .gitignore           → Files/directories to be ignored by Git
 
+```
 ```
