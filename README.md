@@ -60,18 +60,19 @@ flowchart TD
 ```text
 agentic_rag_chatbot/
 │
-├── agents/                 # Ingestion, retrieval, and response logic
-│   ├── ingestion_agent.py
-│   ├── retrieval_agent.py
-│   └── llm_response_agent.py
+├── 🧠 agents/               → Core logic for:
+│     ├── ingestion_agent.py       (Document chunking)
+│     ├── retrieval_agent.py       (Similarity search using FAISS)
+│     └── llm_response_agent.py    (Response generation using LLMs)
 │
-├── data/                   # Uploaded files
-├── db/                     # FAISS index and pickled documents
-├── ui/                     # Streamlit interface
-├── utils/                  # Utility functions (e.g., MCP)
+├── 📂 data/                → Stores uploaded files
+├── 📂 db/                  → FAISS index and pickled vector store
+├── 🖥️ ui/                  → Streamlit frontend for user interaction
+├── 🧰 utils/               → Utility scripts (MCP protocol, helpers)
 │
-├── .env                    # API keys and credentials
-├── requirements.txt        # Python dependencies
-├── README.md               # Documentation
-└── .gitignore              # Git ignore file
+├── 📄 .env                 → Environment variables (API keys etc.)
+├── 📦 requirements.txt     → List of Python dependencies
+├── 📘 README.md            → Project documentation
+└── 🚫 .gitignore           → Files/directories to be ignored by Git
+
 ```
