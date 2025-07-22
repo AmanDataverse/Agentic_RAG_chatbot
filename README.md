@@ -78,13 +78,17 @@ agentic_rag_chatbot/
 ## 🎬 Demo Video
 
 ```
-[![Watch the demo]](media/Demo_Agentic_RAG_CHATBOT.mp4)
+🎥 [Click here to watch the demo video](media/Demo_Agentic_RAG_CHATBOT.mp4)
+
+
 
 ```
 ## 📑 Presentation
 
 ```
 
-📄 [Click here to download the project PPT](./presentation/Agentic_RAG_Chatbot_Presentation.pptx)
+📊 [Click here to download the presentation](presentation/SLRIS_task_ppt.pptx)
+
+
 
 ```
